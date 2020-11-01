@@ -3,19 +3,19 @@
 class DAO {
 
   // Properties
-	 /*private static $dbHost = "ID281855_20182019.db.webhosting.be";
+	private static $dbHost = "ID281855_20182019.db.webhosting.be";
 	private static $dbName = "ID281855_20182019";
 	private static $dbUser = "ID281855_20182019";
 	private static $dbPass = "devine20182019";
 	private static $sharedPDO;
-	protected $pdo;*/
-
-	private static $dbHost = "localhost";
-	private static $dbName = "ID281855_20182019";
-	private static $dbUser = "integration2";
-	private static $dbPass = "integration2";
-	private static $sharedPDO;
 	protected $pdo;
+
+	// private static $dbHost = "localhost";
+	// private static $dbName = "ID281855_20182019";
+	// private static $dbUser = "integration2";
+	// private static $dbPass = "integration2";
+	// private static $sharedPDO;
+	// protected $pdo;
 
   // Constructor
 	function __construct() {
